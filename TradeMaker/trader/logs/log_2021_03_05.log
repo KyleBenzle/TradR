@@ -1,0 +1,96 @@
+INFO 2021-03-05 20:37:01,278 MainProcess Account Balance ---> {'asset': 'BTC', 'free': '0.00189386', 'locked': '0.00000000'}
+INFO 2021-03-05 20:37:01,671 MainProcess About to sell 0.0017993 out of 0.00189386
+INFO 2021-03-05 20:37:02,803 MainProcess Account Balance ---> {'asset': 'BCH', 'free': '0.01947051', 'locked': '0.00000000'}
+INFO 2021-03-05 20:37:03,203 MainProcess About to sell 0.0184965 out of 0.01947051
+INFO 2021-03-05 20:37:03,919 MainProcess Account Balance ---> {'asset': 'ETH', 'free': '0.00000000', 'locked': '0.00000000'}
+INFO 2021-03-05 20:37:04,429 MainProcess Account Balance ---> {'asset': 'XMR', 'free': '0.00000000', 'locked': '0.00000000'}
+INFO 2021-03-05 20:37:05,453 MainProcess Account Balance ---> {'asset': 'DASH', 'free': '0.00000000', 'locked': '0.00000000'}
+INFO 2021-03-05 20:37:53,630 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:37:56,972 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:37:59,227 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:38:02,463 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:38:04,366 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:38:43,163 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:38:44,690 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:38:45,804 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:38:46,971 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:38:49,300 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:40:05,067 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:40:06,041 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:40:07,692 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:40:09,178 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:40:13,559 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:42:14,420 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:42:16,685 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:42:18,413 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:42:20,821 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:42:22,148 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:42:46,234 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:42:47,263 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:42:48,391 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:42:51,682 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:42:53,328 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:43:14,732 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:43:15,704 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:43:16,975 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:43:18,839 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:43:21,356 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:43:32,968 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:43:34,632 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:43:36,019 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:43:37,695 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:43:41,040 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:44:20,201 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:44:21,718 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:44:22,749 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:44:24,401 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:44:27,485 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:44:48,624 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:44:50,071 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:44:57,754 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:44:59,433 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:45:00,721 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:45:44,093 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:45:45,052 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:45:45,575 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:45:46,891 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:45:47,403 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:46:06,993 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:46:08,253 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:46:08,792 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:46:09,305 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:46:09,888 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:46:52,063 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:46:52,572 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:46:53,093 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:46:53,614 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:46:54,112 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:47:19,254 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:47:19,776 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:47:20,301 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:47:20,818 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:47:22,020 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:47:33,635 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:47:38,295 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:47:40,642 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:47:42,065 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:47:43,903 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:50:44,535 MainProcess Account Balance ---> {'asset': 'BTC', 'free': '0.00000086', 'locked': '0.00000000'}
+INFO 2021-03-05 20:50:45,318 MainProcess About to sell 9.499999999999999e-07 out of 8.6e-07
+INFO 2021-03-05 20:50:47,118 MainProcess Account Balance ---> {'asset': 'BCH', 'free': '0.01947051', 'locked': '0.00000000'}
+INFO 2021-03-05 20:50:47,520 MainProcess About to sell 0.0184965 out of 0.01947051
+INFO 2021-03-05 20:50:48,247 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '92.75630192', 'locked': '0.00000000'}
+INFO 2021-03-05 20:50:49,396 MainProcess buy order for ETH filled with the order id 3255052756 qty 0.01206000 exec_qty 0.01206000
+NoneType: None
+INFO 2021-03-05 20:50:50,412 MainProcess Account Balance ---> {'asset': 'XMR', 'free': '0.00000000', 'locked': '0.00000000'}
+INFO 2021-03-05 20:50:52,239 MainProcess Account Balance ---> {'asset': 'DASH', 'free': '0.00000000', 'locked': '0.00000000'}
+INFO 2021-03-05 20:51:33,412 MainProcess Account Balance ---> {'asset': 'BTC', 'free': '0.00000086', 'locked': '0.00000000'}
+INFO 2021-03-05 20:51:35,316 MainProcess About to sell 9.499999999999999e-07 out of 8.6e-07
+INFO 2021-03-05 20:51:36,095 MainProcess Account Balance ---> {'asset': 'BCH', 'free': '0.01947051', 'locked': '0.00000000'}
+INFO 2021-03-05 20:51:36,449 MainProcess About to sell 0.0184965 out of 0.01947051
+INFO 2021-03-05 20:51:37,484 MainProcess Account Balance ---> {'asset': 'ETH', 'free': '0.01204794', 'locked': '0.00000000'}
+INFO 2021-03-05 20:51:37,732 MainProcess About to sell 0.0114475 out of 0.01204794
+INFO 2021-03-05 20:51:38,432 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '74.21332832', 'locked': '0.00000000'}
+INFO 2021-03-05 20:51:38,978 MainProcess buy order for XMR filled with the order id 456890488 qty 0.07303000 exec_qty 0.07303000
+NoneType: None
+INFO 2021-03-05 20:51:39,600 MainProcess Account Balance ---> {'asset': 'DASH', 'free': '0.00000000', 'locked': '0.00000000'}

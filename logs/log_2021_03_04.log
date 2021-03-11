@@ -1,0 +1,5 @@
+INFO 2021-03-04 13:27:56,362 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '10.60593510', 'locked': '0.00000000'}
+INFO 2021-03-04 13:27:56,913 MainProcess buy order for BTC filled with the order id 5095628742 qty 0.00020600 exec_qty 0.00020600
+NoneType: None
+INFO 2021-03-04 13:27:57,573 MainProcess Account Balance ---> {'asset': 'BCH', 'free': '0.01947051', 'locked': '0.00000000'}
+INFO 2021-03-04 13:27:58,052 MainProcess About to sell 0.0184965 out of 0.01947051

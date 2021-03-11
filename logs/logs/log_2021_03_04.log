@@ -1,0 +1,14 @@
+INFO 2021-03-04 12:52:21,614 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '40.58100051', 'locked': '0.00000000'}
+INFO 2021-03-04 12:52:22,107 MainProcess buy order for BTC filled with the order id 5095043624 qty 0.00020400 exec_qty 0.00020400
+NoneType: None
+INFO 2021-03-04 12:52:22,640 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '30.59237307', 'locked': '0.00000000'}
+INFO 2021-03-04 12:52:23,154 MainProcess buy order for BCH filled with the order id 1451949601 qty 0.01949000 exec_qty 0.01949000
+NoneType: None
+INFO 2021-03-04 12:52:24,012 MainProcess Account Balance ---> {'asset': 'ETH', 'free': '0.00000000', 'locked': '0.00000000'}
+ERROR 2021-03-04 12:52:24,012 MainProcess Error in main:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trade_script.py", line 19, in main
+    trader.sell_order(asset)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 55, in sell_order
+    raise ValueError(f'No sufficient balance for {asset}')
+ValueError: No sufficient balance for ETH

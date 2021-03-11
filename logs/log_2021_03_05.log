@@ -1,0 +1,108 @@
+INFO 2021-03-05 02:11:06,992 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 02:11:08,603 MainProcess Account Balance ---> {'asset': 'BCH', 'free': '0.01947051', 'locked': '0.00000000'}
+INFO 2021-03-05 02:11:08,966 MainProcess About to sell 0.0184965 out of 0.01947051
+INFO 2021-03-05 02:11:11,835 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 02:11:13,956 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 02:11:15,662 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 14:02:17,709 MainProcess Account Balance ---> {'asset': 'BTC', 'free': '0.00189386', 'locked': '0.00000000'}
+INFO 2021-03-05 14:02:18,104 MainProcess About to sell 0.0017993 out of 0.00189386
+INFO 2021-03-05 14:02:19,733 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 14:02:21,780 MainProcess Account Balance ---> {'asset': 'ETH', 'free': '0.00000000', 'locked': '0.00000000'}
+ERROR 2021-03-05 14:02:21,780 MainProcess Error in main:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trade_script.py", line 19, in main
+    trader.sell_order(asset)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 67, in sell_order
+    raise ValueError(f'No sufficient balance for {asset}')
+ValueError: No sufficient balance for ETH
+INFO 2021-03-05 14:49:54,375 MainProcess Account Balance ---> {'asset': 'BTC', 'free': '0.00189386', 'locked': '0.00000000'}
+INFO 2021-03-05 14:49:54,663 MainProcess About to sell 0.0017993 out of 0.00189386
+INFO 2021-03-05 14:49:56,942 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 14:49:59,691 MainProcess Account Balance ---> {'asset': 'ETH', 'free': '0.00000000', 'locked': '0.00000000'}
+ERROR 2021-03-05 14:49:59,692 MainProcess Error in main:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trade_script.py", line 19, in main
+    trader.sell_order(asset)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 67, in sell_order
+    raise ValueError(f'No sufficient balance for {asset}')
+ValueError: No sufficient balance for ETH
+INFO 2021-03-05 18:32:14,032 MainProcess Account Balance ---> {'asset': 'BTC', 'free': '0.00189386', 'locked': '0.00000000'}
+INFO 2021-03-05 18:32:14,283 MainProcess About to sell 0.0017993 out of 0.00189386
+INFO 2021-03-05 18:32:15,003 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 18:32:17,679 MainProcess Account Balance ---> {'asset': 'ETH', 'free': '0.00000000', 'locked': '0.00000000'}
+ERROR 2021-03-05 18:32:17,679 MainProcess Error in main:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trade_script.py", line 19, in main
+    trader.sell_order(asset)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 67, in sell_order
+    raise ValueError(f'No sufficient balance for {asset}')
+ValueError: No sufficient balance for ETH
+INFO 2021-03-05 18:33:52,572 MainProcess Account Balance ---> {'asset': 'BTC', 'free': '0.00189386', 'locked': '0.00000000'}
+INFO 2021-03-05 18:33:52,823 MainProcess About to sell 0.0017993 out of 0.00189386
+INFO 2021-03-05 18:33:53,542 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 18:34:15,949 MainProcess Account Balance ---> {'asset': 'BTC', 'free': '0.00189386', 'locked': '0.00000000'}
+INFO 2021-03-05 18:34:17,530 MainProcess About to sell 0.0017993 out of 0.00189386
+INFO 2021-03-05 18:34:18,937 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 18:34:24,169 MainProcess Account Balance ---> {'asset': 'ETH', 'free': '0.00000000', 'locked': '0.00000000'}
+ERROR 2021-03-05 18:34:24,169 MainProcess Error in main:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trade_script.py", line 19, in main
+    trader.sell_order(asset)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 67, in sell_order
+    raise ValueError(f'No sufficient balance for {asset}')
+ValueError: No sufficient balance for ETH
+INFO 2021-03-05 18:34:42,290 MainProcess Account Balance ---> {'asset': 'BTC', 'free': '0.00189386', 'locked': '0.00000000'}
+INFO 2021-03-05 18:34:42,536 MainProcess About to sell 0.0017993 out of 0.00189386
+INFO 2021-03-05 18:34:44,814 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 18:34:46,863 MainProcess Account Balance ---> {'asset': 'XMR', 'free': '0.00000000', 'locked': '0.00000000'}
+ERROR 2021-03-05 18:34:46,863 MainProcess Error in main:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trade_script.py", line 19, in main
+    trader.sell_order(asset)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 67, in sell_order
+    raise ValueError(f'No sufficient balance for {asset}')
+ValueError: No sufficient balance for XMR
+INFO 2021-03-05 18:34:58,941 MainProcess Account Balance ---> {'asset': 'XMR', 'free': '0.00000000', 'locked': '0.00000000'}
+ERROR 2021-03-05 18:34:58,942 MainProcess Error in main:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trade_script.py", line 19, in main
+    trader.sell_order(asset)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 67, in sell_order
+    raise ValueError(f'No sufficient balance for {asset}')
+ValueError: No sufficient balance for XMR
+INFO 2021-03-05 18:35:13,216 MainProcess Account Balance ---> {'asset': 'XMR', 'free': '0.00000000', 'locked': '0.00000000'}
+ERROR 2021-03-05 18:35:13,217 MainProcess Error in main:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trade_script.py", line 19, in main
+    trader.sell_order(asset)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 67, in sell_order
+    raise ValueError(f'No sufficient balance for {asset}')
+ValueError: No sufficient balance for XMR
+INFO 2021-03-05 18:35:31,921 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 18:35:54,150 MainProcess Account Balance ---> {'asset': 'XMR', 'free': '0.00000000', 'locked': '0.00000000'}
+ERROR 2021-03-05 18:35:54,150 MainProcess Error in main:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trade_script.py", line 19, in main
+    trader.sell_order(asset)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 67, in sell_order
+    raise ValueError(f'No sufficient balance for {asset}')
+ValueError: No sufficient balance for XMR
+INFO 2021-03-05 18:39:08,132 MainProcess Account Balance ---> {'asset': 'BTC', 'free': '0.00189386', 'locked': '0.00000000'}
+INFO 2021-03-05 18:39:08,383 MainProcess About to sell 0.0017993 out of 0.00189386
+INFO 2021-03-05 18:39:13,410 MainProcess Account Balance ---> {'asset': 'BCH', 'free': '0.01947051', 'locked': '0.00000000'}
+INFO 2021-03-05 18:39:13,704 MainProcess About to sell 0.0184965 out of 0.01947051
+INFO 2021-03-05 18:39:15,674 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 18:39:18,444 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 18:39:19,573 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '0.65324492', 'locked': '0.00000000'}
+INFO 2021-03-05 20:31:20,597 MainProcess Account Balance ---> {'asset': 'BTC', 'free': '0.00189386', 'locked': '0.00000000'}
+INFO 2021-03-05 20:31:21,755 MainProcess About to sell 0.0017993 out of 0.00189386
+INFO 2021-03-05 20:31:25,391 MainProcess Account Balance ---> {'asset': 'BCH', 'free': '0.01947051', 'locked': '0.00000000'}
+INFO 2021-03-05 20:31:25,638 MainProcess About to sell 0.0184965 out of 0.01947051
+INFO 2021-03-05 20:31:26,422 MainProcess Account Balance ---> {'asset': 'ETH', 'free': '0.00000000', 'locked': '0.00000000'}
+ERROR 2021-03-05 20:31:26,422 MainProcess Error in main:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trade_script.py", line 19, in main
+    trader.sell_order(asset)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 67, in sell_order
+    raise ValueError(f'No sufficient balance for {asset}')
+ValueError: No sufficient balance for ETH

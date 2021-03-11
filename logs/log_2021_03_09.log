@@ -1,0 +1,588 @@
+INFO 2021-03-09 03:42:39,466 MainProcess Account Balance ---> {'asset': 'BTC', 'free': '0.00002685', 'locked': '0.00000000'}
+INFO 2021-03-09 03:42:39,730 MainProcess About to sell 2.6e-05 out of 2.5507499999999996e-05
+ERROR 2021-03-09 03:42:39,944 MainProcess Error sell order:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 52, in sell_order
+    recvWindow=50000
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1394, in order_market_sell
+    return self.order_market(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1338, in order_market
+    return self.create_order(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1200, in create_order
+    return self._post('order', True, data=params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 240, in _post
+    return self._request_api('post', path, signed, version, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 202, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 197, in _request
+    return self._handle_response()
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 230, in _handle_response
+    raise BinanceAPIException(self.response)
+binance.exceptions.BinanceAPIException: APIError(code=-1100): Illegal characters found in parameter 'quantity'; legal range is '^([0-9]{1,20})(\.[0-9]{1,20})?$'.
+INFO 2021-03-09 03:42:41,421 MainProcess Account Balance ---> {'asset': 'BCH', 'free': '0.16904962', 'locked': '0.00000000'}
+INFO 2021-03-09 03:42:43,128 MainProcess About to sell 0.1606 out of 0.160597139
+INFO 2021-03-09 03:42:43,327 MainProcess sell order for BCH filled with the order id 1471917049 qty 0.16060000 exec_qty 0.16060000
+NoneType: None
+INFO 2021-03-09 03:42:44,632 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '257.18669134', 'locked': '0.00000000'}
+INFO 2021-03-09 03:42:45,322 MainProcess buy order for ETH filled with the order id 3292867149 qty 0.02818000 exec_qty 0.02818000
+NoneType: None
+INFO 2021-03-09 03:42:47,230 MainProcess Account Balance ---> {'asset': 'XMR', 'free': '0.01715028', 'locked': '0.00000000'}
+INFO 2021-03-09 03:42:47,475 MainProcess About to sell 0.01629 out of 0.016292766
+ERROR 2021-03-09 03:42:47,672 MainProcess Error sell order:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 52, in sell_order
+    recvWindow=50000
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1394, in order_market_sell
+    return self.order_market(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1338, in order_market
+    return self.create_order(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1200, in create_order
+    return self._post('order', True, data=params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 240, in _post
+    return self._request_api('post', path, signed, version, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 202, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 197, in _request
+    return self._handle_response()
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 230, in _handle_response
+    raise BinanceAPIException(self.response)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: MIN_NOTIONAL
+INFO 2021-03-09 03:42:49,250 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '205.75340074', 'locked': '0.00000000'}
+INFO 2021-03-09 03:42:49,732 MainProcess buy order for DASH filled with the order id 555265423 qty 0.17847000 exec_qty 0.17847000
+NoneType: None
+INFO 2021-03-09 05:01:04,817 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '164.60357284', 'locked': '0.00000000'}
+INFO 2021-03-09 05:01:06,638 MainProcess buy order for BTC filled with the order id 5157654523 qty 0.00060800 exec_qty 0.00060800
+NoneType: None
+INFO 2021-03-09 05:01:07,189 MainProcess Account Balance ---> {'asset': 'BCH', 'free': '0.00844962', 'locked': '0.00000000'}
+INFO 2021-03-09 05:01:07,467 MainProcess About to sell 0.00803 out of 0.008027138999999999
+ERROR 2021-03-09 05:01:07,672 MainProcess Error sell order:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 52, in sell_order
+    recvWindow=50000
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1394, in order_market_sell
+    return self.order_market(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1338, in order_market
+    return self.create_order(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1200, in create_order
+    return self._post('order', True, data=params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 240, in _post
+    return self._request_api('post', path, signed, version, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 202, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 197, in _request
+    return self._handle_response()
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 230, in _handle_response
+    raise BinanceAPIException(self.response)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: MIN_NOTIONAL
+INFO 2021-03-09 05:01:09,493 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '131.69168164', 'locked': '0.00000000'}
+INFO 2021-03-09 05:01:10,153 MainProcess buy order for ETH filled with the order id 3293388712 qty 0.01439000 exec_qty 0.01439000
+NoneType: None
+INFO 2021-03-09 05:01:10,685 MainProcess Account Balance ---> {'asset': 'XMR', 'free': '0.01715028', 'locked': '0.00000000'}
+INFO 2021-03-09 05:01:10,933 MainProcess About to sell 0.01629 out of 0.016292766
+ERROR 2021-03-09 05:01:11,133 MainProcess Error sell order:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 52, in sell_order
+    recvWindow=50000
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1394, in order_market_sell
+    return self.order_market(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1338, in order_market
+    return self.create_order(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1200, in create_order
+    return self._post('order', True, data=params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 240, in _post
+    return self._request_api('post', path, signed, version, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 202, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 197, in _request
+    return self._handle_response()
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 230, in _handle_response
+    raise BinanceAPIException(self.response)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: MIN_NOTIONAL
+INFO 2021-03-09 05:01:11,637 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '105.35927674', 'locked': '0.00000000'}
+INFO 2021-03-09 05:01:12,132 MainProcess buy order for DASH filled with the order id 555375599 qty 0.09127000 exec_qty 0.09127000
+NoneType: None
+INFO 2021-03-09 06:17:34,405 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '84.28959724', 'locked': '0.00000000'}
+INFO 2021-03-09 06:17:35,542 MainProcess buy order for BTC filled with the order id 5158337181 qty 0.00031100 exec_qty 0.00031100
+NoneType: None
+INFO 2021-03-09 06:17:36,633 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '67.43499578', 'locked': '0.00000000'}
+INFO 2021-03-09 06:17:37,420 MainProcess buy order for BCH filled with the order id 1472380855 qty 0.02499000 exec_qty 0.02499000
+NoneType: None
+INFO 2021-03-09 06:17:38,108 MainProcess Account Balance ---> {'asset': 'ETH', 'free': '0.04467287', 'locked': '0.00000000'}
+INFO 2021-03-09 06:17:38,370 MainProcess About to sell 0.04244 out of 0.0424392265
+INFO 2021-03-09 06:17:38,572 MainProcess sell order for ETH filled with the order id 3293905956 qty 0.04244000 exec_qty 0.04244000
+NoneType: None
+INFO 2021-03-09 06:17:39,393 MainProcess Account Balance ---> {'asset': 'XMR', 'free': '0.01715028', 'locked': '0.00000000'}
+INFO 2021-03-09 06:17:42,229 MainProcess About to sell 0.01629 out of 0.016292766
+ERROR 2021-03-09 06:17:42,429 MainProcess Error sell order:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 52, in sell_order
+    recvWindow=50000
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1394, in order_market_sell
+    return self.order_market(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1338, in order_market
+    return self.create_order(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1200, in create_order
+    return self._post('order', True, data=params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 240, in _post
+    return self._request_api('post', path, signed, version, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 202, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 197, in _request
+    return self._handle_response()
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 230, in _handle_response
+    raise BinanceAPIException(self.response)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: MIN_NOTIONAL
+INFO 2021-03-09 06:17:43,119 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '131.45201118', 'locked': '0.00000000'}
+INFO 2021-03-09 06:17:44,637 MainProcess buy order for DASH filled with the order id 555533413 qty 0.11173000 exec_qty 0.11173000
+NoneType: None
+INFO 2021-03-09 07:37:04,165 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '105.16305948', 'locked': '0.00000000'}
+INFO 2021-03-09 07:37:06,060 MainProcess buy order for BTC filled with the order id 5158988968 qty 0.00039000 exec_qty 0.00039000
+NoneType: None
+INFO 2021-03-09 07:37:06,625 MainProcess Account Balance ---> {'asset': 'BCH', 'free': '0.03341463', 'locked': '0.00000000'}
+INFO 2021-03-09 07:37:07,518 MainProcess About to sell 0.03174 out of 0.0317438985
+INFO 2021-03-09 07:37:07,718 MainProcess sell order for BCH filled with the order id 1472619633 qty 0.03174000 exec_qty 0.03174000
+NoneType: None
+INFO 2021-03-09 07:37:08,222 MainProcess Account Balance ---> {'asset': 'ETH', 'free': '0.00223287', 'locked': '0.00000000'}
+INFO 2021-03-09 07:37:08,464 MainProcess About to sell 0.00212 out of 0.0021212265
+ERROR 2021-03-09 07:37:08,672 MainProcess Error sell order:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 52, in sell_order
+    recvWindow=50000
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1394, in order_market_sell
+    return self.order_market(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1338, in order_market
+    return self.create_order(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1200, in create_order
+    return self._post('order', True, data=params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 240, in _post
+    return self._request_api('post', path, signed, version, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 202, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 197, in _request
+    return self._handle_response()
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 230, in _handle_response
+    raise BinanceAPIException(self.response)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: MIN_NOTIONAL
+INFO 2021-03-09 07:37:10,379 MainProcess Account Balance ---> {'asset': 'XMR', 'free': '0.01715028', 'locked': '0.00000000'}
+INFO 2021-03-09 07:37:11,237 MainProcess About to sell 0.01629 out of 0.016292766
+ERROR 2021-03-09 07:37:16,239 MainProcess Error sell order:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 52, in sell_order
+    recvWindow=50000
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1394, in order_market_sell
+    return self.order_market(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1338, in order_market
+    return self.create_order(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1200, in create_order
+    return self._post('order', True, data=params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 240, in _post
+    return self._request_api('post', path, signed, version, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 202, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 197, in _request
+    return self._handle_response()
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 230, in _handle_response
+    raise BinanceAPIException(self.response)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: MIN_NOTIONAL
+INFO 2021-03-09 07:37:17,489 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '101.16328531', 'locked': '0.00000000'}
+INFO 2021-03-09 07:37:18,751 MainProcess buy order for DASH filled with the order id 555666678 qty 0.08535000 exec_qty 0.08535000
+NoneType: None
+INFO 2021-03-09 08:59:36,631 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '80.93192131', 'locked': '0.00000000'}
+INFO 2021-03-09 08:59:37,806 MainProcess buy order for BTC filled with the order id 5159806509 qty 0.00029500 exec_qty 0.00029500
+NoneType: None
+INFO 2021-03-09 08:59:38,315 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '64.78817906', 'locked': '0.00000000'}
+INFO 2021-03-09 08:59:40,111 MainProcess buy order for BCH filled with the order id 1472905566 qty 0.02393000 exec_qty 0.02393000
+NoneType: None
+INFO 2021-03-09 08:59:40,635 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '51.83080196', 'locked': '0.00000000'}
+INFO 2021-03-09 08:59:43,413 MainProcess buy order for ETH filled with the order id 3295131850 qty 0.00564000 exec_qty 0.00564000
+NoneType: None
+INFO 2021-03-09 08:59:43,946 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '41.46775316', 'locked': '0.00000000'}
+INFO 2021-03-09 08:59:46,494 MainProcess buy order for XMR filled with the order id 462893593 qty 0.04372000 exec_qty 0.04372000
+NoneType: None
+INFO 2021-03-09 08:59:48,261 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '31.46811476', 'locked': '0.00000000'}
+INFO 2021-03-09 08:59:50,592 MainProcess buy order for DASH filled with the order id 555823690 qty 0.04178000 exec_qty 0.04178000
+NoneType: None
+INFO 2021-03-09 10:23:49,525 MainProcess Account Balance ---> {'asset': 'BTC', 'free': '0.00162924', 'locked': '0.00000000'}
+INFO 2021-03-09 10:23:51,282 MainProcess About to sell 0.001548 out of 0.0015477779999999999
+INFO 2021-03-09 10:23:51,488 MainProcess sell order for BTC filled with the order id 5160695905 qty 0.00154800 exec_qty 0.00154800
+NoneType: None
+INFO 2021-03-09 10:23:54,070 MainProcess Account Balance ---> {'asset': 'BCH', 'free': '0.02558070', 'locked': '0.00000000'}
+INFO 2021-03-09 10:23:54,320 MainProcess About to sell 0.0243 out of 0.024301665
+INFO 2021-03-09 10:23:57,133 MainProcess sell order for BCH filled with the order id 1473194513 qty 0.02430000 exec_qty 0.02430000
+NoneType: None
+INFO 2021-03-09 10:23:57,657 MainProcess Account Balance ---> {'asset': 'ETH', 'free': '0.00786723', 'locked': '0.00000000'}
+INFO 2021-03-09 10:23:59,607 MainProcess About to sell 0.00747 out of 0.007473868499999999
+INFO 2021-03-09 10:23:59,808 MainProcess sell order for ETH filled with the order id 3295871396 qty 0.00747000 exec_qty 0.00747000
+NoneType: None
+INFO 2021-03-09 10:24:00,345 MainProcess Account Balance ---> {'asset': 'XMR', 'free': '0.06082656', 'locked': '0.00000000'}
+INFO 2021-03-09 10:24:00,731 MainProcess About to sell 0.05779 out of 0.057785232
+INFO 2021-03-09 10:24:00,929 MainProcess sell order for XMR filled with the order id 463003497 qty 0.05779000 exec_qty 0.05779000
+NoneType: None
+INFO 2021-03-09 10:24:06,201 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '144.85615225', 'locked': '0.00000000'}
+INFO 2021-03-09 10:24:06,878 MainProcess buy order for DASH filled with the order id 555972536 qty 0.12345000 exec_qty 0.12345000
+NoneType: None
+INFO 2021-03-09 11:54:36,992 MainProcess Account Balance ---> {'asset': 'BTC', 'free': '0.00008124', 'locked': '0.00000000'}
+INFO 2021-03-09 11:54:37,234 MainProcess About to sell 7.7e-05 out of 7.7178e-05
+ERROR 2021-03-09 11:54:37,435 MainProcess Error sell order:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 52, in sell_order
+    recvWindow=50000
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1394, in order_market_sell
+    return self.order_market(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1338, in order_market
+    return self.create_order(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1200, in create_order
+    return self._post('order', True, data=params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 240, in _post
+    return self._request_api('post', path, signed, version, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 202, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 197, in _request
+    return self._handle_response()
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 230, in _handle_response
+    raise BinanceAPIException(self.response)
+binance.exceptions.BinanceAPIException: APIError(code=-1100): Illegal characters found in parameter 'quantity'; legal range is '^([0-9]{1,20})(\.[0-9]{1,20})?$'.
+INFO 2021-03-09 11:54:37,938 MainProcess Account Balance ---> {'asset': 'BCH', 'free': '0.00128070', 'locked': '0.00000000'}
+INFO 2021-03-09 11:54:38,181 MainProcess About to sell 0.00122 out of 0.001216665
+ERROR 2021-03-09 11:54:38,384 MainProcess Error sell order:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 52, in sell_order
+    recvWindow=50000
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1394, in order_market_sell
+    return self.order_market(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1338, in order_market
+    return self.create_order(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1200, in create_order
+    return self._post('order', True, data=params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 240, in _post
+    return self._request_api('post', path, signed, version, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 202, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 197, in _request
+    return self._handle_response()
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 230, in _handle_response
+    raise BinanceAPIException(self.response)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: MIN_NOTIONAL
+INFO 2021-03-09 11:54:38,903 MainProcess Account Balance ---> {'asset': 'ETH', 'free': '0.00039723', 'locked': '0.00000000'}
+INFO 2021-03-09 11:54:42,770 MainProcess About to sell 0.00038 out of 0.00037736849999999995
+ERROR 2021-03-09 11:54:42,970 MainProcess Error sell order:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 52, in sell_order
+    recvWindow=50000
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1394, in order_market_sell
+    return self.order_market(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1338, in order_market
+    return self.create_order(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1200, in create_order
+    return self._post('order', True, data=params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 240, in _post
+    return self._request_api('post', path, signed, version, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 202, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 197, in _request
+    return self._handle_response()
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 230, in _handle_response
+    raise BinanceAPIException(self.response)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: MIN_NOTIONAL
+INFO 2021-03-09 11:54:43,499 MainProcess Account Balance ---> {'asset': 'XMR', 'free': '0.00303656', 'locked': '0.00000000'}
+INFO 2021-03-09 11:54:43,975 MainProcess About to sell 0.00288 out of 0.002884732
+ERROR 2021-03-09 11:54:44,180 MainProcess Error sell order:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 52, in sell_order
+    recvWindow=50000
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1394, in order_market_sell
+    return self.order_market(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1338, in order_market
+    return self.create_order(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1200, in create_order
+    return self._post('order', True, data=params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 240, in _post
+    return self._request_api('post', path, signed, version, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 202, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 197, in _request
+    return self._handle_response()
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 230, in _handle_response
+    raise BinanceAPIException(self.response)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: MIN_NOTIONAL
+INFO 2021-03-09 11:54:47,119 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '115.88714075', 'locked': '0.00000000'}
+INFO 2021-03-09 11:54:52,537 MainProcess buy order for DASH filled with the order id 556140057 qty 0.09868000 exec_qty 0.09868000
+NoneType: None
+INFO 2021-03-09 13:15:16,203 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '92.71016915', 'locked': '0.00000000'}
+INFO 2021-03-09 13:15:16,827 MainProcess buy order for BTC filled with the order id 5162178192 qty 0.00034300 exec_qty 0.00034300
+NoneType: None
+INFO 2021-03-09 13:15:17,515 MainProcess Account Balance ---> {'asset': 'BCH', 'free': '0.00128070', 'locked': '0.00000000'}
+INFO 2021-03-09 13:15:17,972 MainProcess About to sell 0.00122 out of 0.001216665
+ERROR 2021-03-09 13:15:18,190 MainProcess Error sell order:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 52, in sell_order
+    recvWindow=50000
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1394, in order_market_sell
+    return self.order_market(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1338, in order_market
+    return self.create_order(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1200, in create_order
+    return self._post('order', True, data=params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 240, in _post
+    return self._request_api('post', path, signed, version, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 202, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 197, in _request
+    return self._handle_response()
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 230, in _handle_response
+    raise BinanceAPIException(self.response)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: MIN_NOTIONAL
+INFO 2021-03-09 13:15:19,137 MainProcess Account Balance ---> {'asset': 'ETH', 'free': '0.00039723', 'locked': '0.00000000'}
+INFO 2021-03-09 13:15:19,695 MainProcess About to sell 0.00038 out of 0.00037736849999999995
+ERROR 2021-03-09 13:15:19,895 MainProcess Error sell order:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 52, in sell_order
+    recvWindow=50000
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1394, in order_market_sell
+    return self.order_market(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1338, in order_market
+    return self.create_order(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1200, in create_order
+    return self._post('order', True, data=params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 240, in _post
+    return self._request_api('post', path, signed, version, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 202, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 197, in _request
+    return self._handle_response()
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 230, in _handle_response
+    raise BinanceAPIException(self.response)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: MIN_NOTIONAL
+INFO 2021-03-09 13:15:21,016 MainProcess Account Balance ---> {'asset': 'XMR', 'free': '0.00303656', 'locked': '0.00000000'}
+INFO 2021-03-09 13:15:21,350 MainProcess About to sell 0.00288 out of 0.002884732
+ERROR 2021-03-09 13:15:21,556 MainProcess Error sell order:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 52, in sell_order
+    recvWindow=50000
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1394, in order_market_sell
+    return self.order_market(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1338, in order_market
+    return self.create_order(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1200, in create_order
+    return self._post('order', True, data=params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 240, in _post
+    return self._request_api('post', path, signed, version, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 202, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 197, in _request
+    return self._handle_response()
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 230, in _handle_response
+    raise BinanceAPIException(self.response)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: MIN_NOTIONAL
+INFO 2021-03-09 13:15:23,376 MainProcess Account Balance ---> {'asset': 'DASH', 'free': '0.74003247', 'locked': '0.00000000'}
+INFO 2021-03-09 13:15:23,828 MainProcess About to sell 0.70303 out of 0.7030308465
+INFO 2021-03-09 13:15:24,098 MainProcess sell order for DASH filled with the order id 556279951 qty 0.70303000 exec_qty 0.70303000
+NoneType: None
+INFO 2021-03-09 15:55:06,537 MainProcess Account Balance ---> {'asset': 'BTC', 'free': '0.00042390', 'locked': '0.00000000'}
+INFO 2021-03-09 15:55:06,806 MainProcess About to sell 0.000403 out of 0.000402705
+INFO 2021-03-09 15:55:07,008 MainProcess sell order for BTC filled with the order id 5163387553 qty 0.00040300 exec_qty 0.00040300
+NoneType: None
+INFO 2021-03-09 15:55:11,443 MainProcess Account Balance ---> {'asset': 'BCH', 'free': '0.00128070', 'locked': '0.00000000'}
+INFO 2021-03-09 15:55:11,717 MainProcess About to sell 0.00122 out of 0.001216665
+ERROR 2021-03-09 15:55:12,190 MainProcess Error sell order:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 52, in sell_order
+    recvWindow=50000
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1394, in order_market_sell
+    return self.order_market(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1338, in order_market
+    return self.create_order(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1200, in create_order
+    return self._post('order', True, data=params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 240, in _post
+    return self._request_api('post', path, signed, version, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 202, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 197, in _request
+    return self._handle_response()
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 230, in _handle_response
+    raise BinanceAPIException(self.response)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: MIN_NOTIONAL
+INFO 2021-03-09 15:55:17,538 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '259.91625969', 'locked': '0.00000000'}
+INFO 2021-03-09 15:55:18,049 MainProcess buy order for ETH filled with the order id 3298185498 qty 0.02830000 exec_qty 0.02830000
+NoneType: None
+INFO 2021-03-09 15:55:18,714 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '207.93849869', 'locked': '0.00000000'}
+INFO 2021-03-09 15:55:19,186 MainProcess buy order for XMR filled with the order id 463374415 qty 0.18690000 exec_qty 0.18690000
+NoneType: None
+INFO 2021-03-09 15:55:19,717 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '166.35139109', 'locked': '0.00000000'}
+INFO 2021-03-09 15:55:23,409 MainProcess buy order for DASH filled with the order id 556510520 qty 0.14158000 exec_qty 0.14158000
+NoneType: None
+INFO 2021-03-09 17:12:08,541 MainProcess Account Balance ---> {'asset': 'BTC', 'free': '0.00002090', 'locked': '0.00000000'}
+INFO 2021-03-09 17:12:09,038 MainProcess About to sell 2e-05 out of 1.9855e-05
+ERROR 2021-03-09 17:12:09,248 MainProcess Error sell order:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 52, in sell_order
+    recvWindow=50000
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1394, in order_market_sell
+    return self.order_market(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1338, in order_market
+    return self.create_order(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1200, in create_order
+    return self._post('order', True, data=params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 240, in _post
+    return self._request_api('post', path, signed, version, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 202, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 197, in _request
+    return self._handle_response()
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 230, in _handle_response
+    raise BinanceAPIException(self.response)
+binance.exceptions.BinanceAPIException: APIError(code=-1100): Illegal characters found in parameter 'quantity'; legal range is '^([0-9]{1,20})(\.[0-9]{1,20})?$'.
+INFO 2021-03-09 17:12:13,170 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '133.08150689', 'locked': '0.00000000'}
+INFO 2021-03-09 17:12:18,223 MainProcess buy order for BCH filled with the order id 1474308686 qty 0.04914000 exec_qty 0.04914000
+NoneType: None
+INFO 2021-03-09 17:12:18,744 MainProcess Account Balance ---> {'asset': 'ETH', 'free': '0.02866893', 'locked': '0.00000000'}
+INFO 2021-03-09 17:12:19,143 MainProcess About to sell 0.02724 out of 0.027235483499999998
+INFO 2021-03-09 17:12:19,347 MainProcess sell order for ETH filled with the order id 3298591942 qty 0.02724000 exec_qty 0.02724000
+NoneType: None
+INFO 2021-03-09 17:12:21,157 MainProcess Account Balance ---> {'asset': 'XMR', 'free': '0.18974966', 'locked': '0.00000000'}
+INFO 2021-03-09 17:12:23,327 MainProcess About to sell 0.18026 out of 0.18026217699999997
+INFO 2021-03-09 17:12:23,527 MainProcess sell order for XMR filled with the order id 463444679 qty 0.18026000 exec_qty 0.18026000
+NoneType: None
+INFO 2021-03-09 17:12:25,052 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '196.55769112', 'locked': '0.00000000'}
+INFO 2021-03-09 17:12:25,712 MainProcess buy order for DASH filled with the order id 556609109 qty 0.16631000 exec_qty 0.16631000
+NoneType: None
+INFO 2021-03-09 19:55:33,401 MainProcess Account Balance ---> {'asset': 'BTC', 'free': '0.00002090', 'locked': '0.00000000'}
+INFO 2021-03-09 19:55:33,787 MainProcess About to sell 2e-05 out of 1.9855e-05
+ERROR 2021-03-09 19:55:34,003 MainProcess Error sell order:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 52, in sell_order
+    recvWindow=50000
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1394, in order_market_sell
+    return self.order_market(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1338, in order_market
+    return self.create_order(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1200, in create_order
+    return self._post('order', True, data=params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 240, in _post
+    return self._request_api('post', path, signed, version, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 202, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 197, in _request
+    return self._handle_response()
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 230, in _handle_response
+    raise BinanceAPIException(self.response)
+binance.exceptions.BinanceAPIException: APIError(code=-1100): Illegal characters found in parameter 'quantity'; legal range is '^([0-9]{1,20})(\.[0-9]{1,20})?$'.
+INFO 2021-03-09 19:55:36,751 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '157.24699642', 'locked': '0.00000000'}
+INFO 2021-03-09 19:55:37,646 MainProcess buy order for BCH filled with the order id 1474774889 qty 0.05709000 exec_qty 0.05709000
+NoneType: None
+INFO 2021-03-09 19:55:39,368 MainProcess Account Balance ---> {'asset': 'ETH', 'free': '0.00142893', 'locked': '0.00000000'}
+INFO 2021-03-09 19:55:43,238 MainProcess About to sell 0.00136 out of 0.0013574834999999998
+ERROR 2021-03-09 19:55:43,746 MainProcess Error sell order:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 52, in sell_order
+    recvWindow=50000
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1394, in order_market_sell
+    return self.order_market(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1338, in order_market
+    return self.create_order(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1200, in create_order
+    return self._post('order', True, data=params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 240, in _post
+    return self._request_api('post', path, signed, version, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 202, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 197, in _request
+    return self._handle_response()
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 230, in _handle_response
+    raise BinanceAPIException(self.response)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: MIN_NOTIONAL
+INFO 2021-03-09 19:55:44,331 MainProcess Account Balance ---> {'asset': 'XMR', 'free': '0.00948966', 'locked': '0.00000000'}
+INFO 2021-03-09 19:55:44,776 MainProcess About to sell 0.00902 out of 0.009015177
+ERROR 2021-03-09 19:55:46,769 MainProcess Error sell order:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 52, in sell_order
+    recvWindow=50000
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1394, in order_market_sell
+    return self.order_market(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1338, in order_market
+    return self.create_order(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1200, in create_order
+    return self._post('order', True, data=params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 240, in _post
+    return self._request_api('post', path, signed, version, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 202, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 197, in _request
+    return self._handle_response()
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 230, in _handle_response
+    raise BinanceAPIException(self.response)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: MIN_NOTIONAL
+INFO 2021-03-09 19:55:47,355 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '125.79839902', 'locked': '0.00000000'}
+INFO 2021-03-09 19:55:49,094 MainProcess buy order for DASH filled with the order id 556902496 qty 0.10100000 exec_qty 0.10100000
+NoneType: None
+INFO 2021-03-09 21:22:51,798 MainProcess Account Balance ---> {'asset': 'BTC', 'free': '0.00002090', 'locked': '0.00000000'}
+INFO 2021-03-09 21:22:52,056 MainProcess About to sell 2e-05 out of 1.9855e-05
+ERROR 2021-03-09 21:22:52,257 MainProcess Error sell order:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 52, in sell_order
+    recvWindow=50000
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1394, in order_market_sell
+    return self.order_market(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1338, in order_market
+    return self.create_order(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1200, in create_order
+    return self._post('order', True, data=params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 240, in _post
+    return self._request_api('post', path, signed, version, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 202, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 197, in _request
+    return self._handle_response()
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 230, in _handle_response
+    raise BinanceAPIException(self.response)
+binance.exceptions.BinanceAPIException: APIError(code=-1100): Illegal characters found in parameter 'quantity'; legal range is '^([0-9]{1,20})(\.[0-9]{1,20})?$'.
+INFO 2021-03-09 21:22:52,779 MainProcess Account Balance ---> {'asset': 'BCH', 'free': '0.10740447', 'locked': '0.00000000'}
+INFO 2021-03-09 21:22:53,045 MainProcess About to sell 0.10203 out of 0.1020342465
+INFO 2021-03-09 21:22:53,250 MainProcess sell order for BCH filled with the order id 1475220582 qty 0.10203000 exec_qty 0.10203000
+NoneType: None
+INFO 2021-03-09 21:22:53,768 MainProcess Account Balance ---> {'asset': 'ETH', 'free': '0.00142893', 'locked': '0.00000000'}
+INFO 2021-03-09 21:22:55,975 MainProcess About to sell 0.00136 out of 0.0013574834999999998
+ERROR 2021-03-09 21:22:56,179 MainProcess Error sell order:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 52, in sell_order
+    recvWindow=50000
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1394, in order_market_sell
+    return self.order_market(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1338, in order_market
+    return self.create_order(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1200, in create_order
+    return self._post('order', True, data=params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 240, in _post
+    return self._request_api('post', path, signed, version, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 202, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 197, in _request
+    return self._handle_response()
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 230, in _handle_response
+    raise BinanceAPIException(self.response)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: MIN_NOTIONAL
+INFO 2021-03-09 21:22:56,687 MainProcess Account Balance ---> {'asset': 'XMR', 'free': '0.00948966', 'locked': '0.00000000'}
+INFO 2021-03-09 21:22:57,862 MainProcess About to sell 0.00902 out of 0.009015177
+ERROR 2021-03-09 21:22:58,061 MainProcess Error sell order:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 52, in sell_order
+    recvWindow=50000
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1394, in order_market_sell
+    return self.order_market(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1338, in order_market
+    return self.create_order(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1200, in create_order
+    return self._post('order', True, data=params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 240, in _post
+    return self._request_api('post', path, signed, version, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 202, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 197, in _request
+    return self._handle_response()
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 230, in _handle_response
+    raise BinanceAPIException(self.response)
+binance.exceptions.BinanceAPIException: APIError(code=-1013): Filter failure: MIN_NOTIONAL
+INFO 2021-03-09 21:22:58,580 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '154.79159092', 'locked': '0.00000000'}
+INFO 2021-03-09 21:22:59,235 MainProcess buy order for DASH filled with the order id 557082349 qty 0.13230000 exec_qty 0.13230000
+NoneType: None

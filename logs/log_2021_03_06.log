@@ -1,0 +1,113 @@
+INFO 2021-03-06 04:46:51,341 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '59.37144142', 'locked': '0.00000000'}
+INFO 2021-03-06 04:46:52,102 MainProcess buy order for BTC filled with the order id 5117694115 qty 0.00024500 exec_qty 0.00024500
+NoneType: None
+INFO 2021-03-06 04:46:54,413 MainProcess Account Balance ---> {'asset': 'BCH', 'free': '0.01947051', 'locked': '0.00000000'}
+INFO 2021-03-06 04:46:54,823 MainProcess About to sell 0.0184965 out of 0.01947051
+INFO 2021-03-06 04:46:55,546 MainProcess Account Balance ---> {'asset': 'ETH', 'free': '0.01204794', 'locked': '0.00000000'}
+INFO 2021-03-06 04:46:56,036 MainProcess About to sell 0.0114475 out of 0.01204794
+INFO 2021-03-06 04:46:56,755 MainProcess Account Balance ---> {'asset': 'XMR', 'free': '0.07295697', 'locked': '0.00000000'}
+INFO 2021-03-06 04:46:57,001 MainProcess About to sell 0.069312 out of 0.07295697
+INFO 2021-03-06 04:46:58,511 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '47.53318352', 'locked': '0.00000000'}
+INFO 2021-03-06 04:46:59,484 MainProcess buy order for DASH filled with the order id 549251220 qty 0.04844000 exec_qty 0.04844000
+NoneType: None
+INFO 2021-03-06 14:26:24,883 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '37.53371432', 'locked': '0.00000000'}
+INFO 2021-03-06 14:26:25,413 MainProcess buy order for BTC filled with the order id 5123156288 qty 0.00020600 exec_qty 0.00020600
+NoneType: None
+INFO 2021-03-06 14:26:25,948 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '27.56502000', 'locked': '0.00000000'}
+INFO 2021-03-06 14:26:26,496 MainProcess buy order for BCH filled with the order id 1461120255 qty 0.02023000 exec_qty 0.02023000
+NoneType: None
+INFO 2021-03-06 14:26:27,013 MainProcess Account Balance ---> {'asset': 'ETH', 'free': '0.01204794', 'locked': '0.00000000'}
+INFO 2021-03-06 14:26:27,788 MainProcess About to sell 0.0114475 out of 0.01204794
+INFO 2021-03-06 14:26:29,153 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '17.56856780', 'locked': '0.00000000'}
+INFO 2021-03-06 14:26:29,615 MainProcess buy order for XMR filled with the order id 458098978 qty 0.04951000 exec_qty 0.04951000
+NoneType: None
+INFO 2021-03-06 14:26:30,149 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '7.56952820', 'locked': '0.00000000'}
+INFO 2021-03-06 16:47:18,185 MainProcess Account Balance ---> {'asset': 'BTC', 'free': '0.00045140', 'locked': '0.00000000'}
+INFO 2021-03-06 16:47:18,648 MainProcess About to sell 0.00042845 out of 0.0004514
+INFO 2021-03-06 16:47:19,605 MainProcess Account Balance ---> {'asset': 'BCH', 'free': '0.03968028', 'locked': '0.00000000'}
+INFO 2021-03-06 16:47:19,848 MainProcess About to sell 0.037696 out of 0.03968028
+INFO 2021-03-06 16:47:20,593 MainProcess Account Balance ---> {'asset': 'ETH', 'free': '0.01204794', 'locked': '0.00000000'}
+INFO 2021-03-06 16:47:21,201 MainProcess About to sell 0.0114475 out of 0.01204794
+INFO 2021-03-06 16:47:22,178 MainProcess Account Balance ---> {'asset': 'XMR', 'free': '0.12241746', 'locked': '0.00000000'}
+INFO 2021-03-06 16:47:22,414 MainProcess About to sell 0.116299 out of 0.12241746
+INFO 2021-03-06 16:47:23,306 MainProcess Account Balance ---> {'asset': 'DASH', 'free': '0.04839156', 'locked': '0.00000000'}
+INFO 2021-03-06 16:47:23,669 MainProcess About to sell 0.0459705 out of 0.04839156
+INFO 2021-03-06 17:19:35,215 MainProcess Account Balance ---> {'asset': 'BTC', 'free': '0.00045140', 'locked': '0.00000000'}
+INFO 2021-03-06 17:19:35,680 MainProcess About to sell 0.00042845 out of 0.0004514
+INFO 2021-03-06 17:19:36,387 MainProcess Account Balance ---> {'asset': 'BCH', 'free': '0.03968028', 'locked': '0.00000000'}
+INFO 2021-03-06 17:19:36,997 MainProcess About to sell 0.037696 out of 0.03968028
+INFO 2021-03-06 17:19:38,068 MainProcess Account Balance ---> {'asset': 'ETH', 'free': '0.01204794', 'locked': '0.00000000'}
+INFO 2021-03-06 17:19:38,367 MainProcess About to sell 0.0114475 out of 0.01204794
+INFO 2021-03-06 17:19:39,127 MainProcess Account Balance ---> {'asset': 'XMR', 'free': '0.12241746', 'locked': '0.00000000'}
+INFO 2021-03-06 17:19:39,399 MainProcess About to sell 0.116299 out of 0.12241746
+INFO 2021-03-06 17:19:40,842 MainProcess Account Balance ---> {'asset': 'DASH', 'free': '0.04839156', 'locked': '0.00000000'}
+INFO 2021-03-06 17:19:41,441 MainProcess About to sell 0.0459705 out of 0.04839156
+INFO 2021-03-06 17:21:20,263 MainProcess Account Balance ---> {'asset': 'BTC', 'free': '0.00045140', 'locked': '0.00000000'}
+INFO 2021-03-06 17:21:21,019 MainProcess About to sell 0.00042845 out of 0.0004514
+INFO 2021-03-06 17:21:21,748 MainProcess Account Balance ---> {'asset': 'BCH', 'free': '0.03968028', 'locked': '0.00000000'}
+INFO 2021-03-06 17:21:22,479 MainProcess About to sell 0.037696 out of 0.03968028
+INFO 2021-03-06 17:21:24,057 MainProcess Account Balance ---> {'asset': 'ETH', 'free': '0.01204794', 'locked': '0.00000000'}
+INFO 2021-03-06 17:21:24,798 MainProcess About to sell 0.0114475 out of 0.01204794
+INFO 2021-03-06 17:21:25,701 MainProcess Account Balance ---> {'asset': 'XMR', 'free': '0.12241746', 'locked': '0.00000000'}
+INFO 2021-03-06 17:21:26,473 MainProcess About to sell 0.116299 out of 0.12241746
+INFO 2021-03-06 17:21:27,214 MainProcess Account Balance ---> {'asset': 'DASH', 'free': '0.04839156', 'locked': '0.00000000'}
+INFO 2021-03-06 17:21:27,654 MainProcess About to sell 0.0459705 out of 0.04839156
+INFO 2021-03-06 17:22:49,665 MainProcess Account Balance ---> {'asset': 'BTC', 'free': '0.00045140', 'locked': '0.00000000'}
+INFO 2021-03-06 17:22:49,945 MainProcess About to sell 0.00042845 out of 0.0004514
+INFO 2021-03-06 17:22:50,656 MainProcess Account Balance ---> {'asset': 'BCH', 'free': '0.03968028', 'locked': '0.00000000'}
+INFO 2021-03-06 17:22:51,160 MainProcess About to sell 0.037696 out of 0.03968028
+INFO 2021-03-06 17:22:51,870 MainProcess Account Balance ---> {'asset': 'ETH', 'free': '0.01204794', 'locked': '0.00000000'}
+INFO 2021-03-06 17:22:52,167 MainProcess About to sell 0.0114475 out of 0.01204794
+INFO 2021-03-06 17:22:52,889 MainProcess Account Balance ---> {'asset': 'XMR', 'free': '0.12241746', 'locked': '0.00000000'}
+INFO 2021-03-06 17:22:53,417 MainProcess About to sell 0.116299 out of 0.12241746
+INFO 2021-03-06 17:22:54,141 MainProcess Account Balance ---> {'asset': 'DASH', 'free': '0.04839156', 'locked': '0.00000000'}
+INFO 2021-03-06 17:22:54,427 MainProcess About to sell 0.0459705 out of 0.04839156
+INFO 2021-03-06 17:23:53,562 MainProcess Account Balance ---> {'asset': 'BTC', 'free': '0.00045140', 'locked': '0.00000000'}
+INFO 2021-03-06 17:23:53,972 MainProcess About to sell 0.00042845 out of 0.0004514
+INFO 2021-03-06 17:23:54,698 MainProcess Account Balance ---> {'asset': 'BCH', 'free': '0.03968028', 'locked': '0.00000000'}
+INFO 2021-03-06 17:23:55,133 MainProcess About to sell 0.037696 out of 0.03968028
+INFO 2021-03-06 17:23:55,889 MainProcess Account Balance ---> {'asset': 'ETH', 'free': '0.01204794', 'locked': '0.00000000'}
+INFO 2021-03-06 17:23:56,314 MainProcess About to sell 0.0114475 out of 0.01204794
+INFO 2021-03-06 17:23:57,450 MainProcess Account Balance ---> {'asset': 'XMR', 'free': '0.12241746', 'locked': '0.00000000'}
+INFO 2021-03-06 17:23:57,732 MainProcess About to sell 0.116299 out of 0.12241746
+INFO 2021-03-06 17:23:58,472 MainProcess Account Balance ---> {'asset': 'DASH', 'free': '0.04839156', 'locked': '0.00000000'}
+INFO 2021-03-06 17:23:58,761 MainProcess About to sell 0.0459705 out of 0.04839156
+INFO 2021-03-06 17:25:27,711 MainProcess Account Balance ---> {'asset': 'BTC', 'free': '0.00045140', 'locked': '0.00000000'}
+INFO 2021-03-06 17:25:28,133 MainProcess About to sell 0.00042845 out of 0.0004514
+INFO 2021-03-06 17:25:29,204 MainProcess Account Balance ---> {'asset': 'BCH', 'free': '0.03968028', 'locked': '0.00000000'}
+INFO 2021-03-06 17:25:29,628 MainProcess About to sell 0.037696 out of 0.03968028
+INFO 2021-03-06 17:25:30,840 MainProcess Account Balance ---> {'asset': 'ETH', 'free': '0.01204794', 'locked': '0.00000000'}
+INFO 2021-03-06 17:25:31,414 MainProcess About to sell 0.0114475 out of 0.01204794
+INFO 2021-03-06 17:25:32,137 MainProcess Account Balance ---> {'asset': 'XMR', 'free': '0.12241746', 'locked': '0.00000000'}
+INFO 2021-03-06 17:25:32,559 MainProcess About to sell 0.116299 out of 0.12241746
+INFO 2021-03-06 17:25:33,283 MainProcess Account Balance ---> {'asset': 'DASH', 'free': '0.04839156', 'locked': '0.00000000'}
+INFO 2021-03-06 17:25:33,581 MainProcess About to sell 0.0459705 out of 0.04839156
+INFO 2021-03-06 17:29:20,318 MainProcess Account Balance ---> {'asset': 'BTC', 'free': '0.00045140', 'locked': '0.00000000'}
+INFO 2021-03-06 17:29:20,602 MainProcess About to sell 0.00042845 out of 0.0004514
+INFO 2021-03-06 17:29:21,150 MainProcess Account Balance ---> {'asset': 'BCH', 'free': '0.03968028', 'locked': '0.00000000'}
+INFO 2021-03-06 17:29:21,430 MainProcess About to sell 0.037696 out of 0.03968028
+INFO 2021-03-06 17:29:21,969 MainProcess Account Balance ---> {'asset': 'ETH', 'free': '0.01204794', 'locked': '0.00000000'}
+INFO 2021-03-06 17:29:22,399 MainProcess About to sell 0.0114475 out of 0.01204794
+INFO 2021-03-06 17:29:22,937 MainProcess Account Balance ---> {'asset': 'XMR', 'free': '0.12241746', 'locked': '0.00000000'}
+INFO 2021-03-06 17:29:23,542 MainProcess About to sell 0.116299 out of 0.12241746
+INFO 2021-03-06 17:29:24,072 MainProcess Account Balance ---> {'asset': 'DASH', 'free': '0.04839156', 'locked': '0.00000000'}
+INFO 2021-03-06 17:29:24,510 MainProcess About to sell 0.0459705 out of 0.04839156
+INFO 2021-03-06 17:30:42,753 MainProcess Account Balance ---> {'asset': 'BTC', 'free': '0.00045140', 'locked': '0.00000000'}
+INFO 2021-03-06 17:30:43,170 MainProcess About to sell 0.00042845 out of 0.0004514
+INFO 2021-03-06 17:30:43,995 MainProcess Account Balance ---> {'asset': 'BCH', 'free': '0.03968028', 'locked': '0.00000000'}
+INFO 2021-03-06 17:30:44,269 MainProcess About to sell 0.037696 out of 0.03968028
+INFO 2021-03-06 17:30:44,796 MainProcess Account Balance ---> {'asset': 'ETH', 'free': '0.01204794', 'locked': '0.00000000'}
+INFO 2021-03-06 17:30:45,275 MainProcess About to sell 0.0114475 out of 0.01204794
+INFO 2021-03-06 17:30:45,789 MainProcess Account Balance ---> {'asset': 'XMR', 'free': '0.12241746', 'locked': '0.00000000'}
+INFO 2021-03-06 17:30:46,294 MainProcess About to sell 0.116299 out of 0.12241746
+INFO 2021-03-06 17:30:46,810 MainProcess Account Balance ---> {'asset': 'DASH', 'free': '0.04839156', 'locked': '0.00000000'}
+INFO 2021-03-06 17:30:47,252 MainProcess About to sell 0.0459705 out of 0.04839156
+INFO 2021-03-06 23:35:52,061 MainProcess Account Balance ---> {'asset': 'BTC', 'free': '0.00045140', 'locked': '0.00000000'}
+INFO 2021-03-06 23:35:52,313 MainProcess About to sell 0.00042845 out of 0.0004514
+INFO 2021-03-06 23:35:53,493 MainProcess Account Balance ---> {'asset': 'BCH', 'free': '0.03968028', 'locked': '0.00000000'}
+INFO 2021-03-06 23:35:53,755 MainProcess About to sell 0.037696 out of 0.03968028
+INFO 2021-03-06 23:35:54,406 MainProcess Account Balance ---> {'asset': 'USDT', 'free': '7.56952820', 'locked': '0.00000000'}
+INFO 2021-03-06 23:35:55,409 MainProcess Account Balance ---> {'asset': 'XMR', 'free': '0.12233746', 'locked': '0.00000000'}
+INFO 2021-03-06 23:35:55,802 MainProcess About to sell 0.11622299999999999 out of 0.12233746
+INFO 2021-03-06 23:35:56,662 MainProcess Account Balance ---> {'asset': 'DASH', 'free': '0.04839156', 'locked': '0.00000000'}
+INFO 2021-03-06 23:35:57,023 MainProcess About to sell 0.0459705 out of 0.04839156

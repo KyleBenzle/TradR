@@ -1,0 +1,80 @@
+ERROR 2021-03-02 15:30:14,865 MainProcess Error in main:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trade_script.py", line 18, in main
+    trader.sell_order(asset)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 24, in sell_order
+    balance = self._get_account_balance(asset)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 86, in _get_account_balance
+    balance = self._client.get_asset_balance(asset=f"{asset}")
+  File "/home/iii/MEGA/tradr/lib/python3.7/site-packages/binance/client.py", line 1792, in get_asset_balance
+    res = self.get_account(**params)
+  File "/home/iii/MEGA/tradr/lib/python3.7/site-packages/binance/client.py", line 1767, in get_account
+    return self._get('account', True, data=params)
+  File "/home/iii/MEGA/tradr/lib/python3.7/site-packages/binance/client.py", line 237, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/home/iii/MEGA/tradr/lib/python3.7/site-packages/binance/client.py", line 202, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/home/iii/MEGA/tradr/lib/python3.7/site-packages/binance/client.py", line 197, in _request
+    return self._handle_response()
+  File "/home/iii/MEGA/tradr/lib/python3.7/site-packages/binance/client.py", line 230, in _handle_response
+    raise BinanceAPIException(self.response)
+binance.exceptions.BinanceAPIException: APIError(code=-2015): Invalid API-key, IP, or permissions for action.
+ERROR 2021-03-02 15:32:21,055 MainProcess Error in main:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trade_script.py", line 18, in main
+    trader.sell_order(asset)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 24, in sell_order
+    balance = self._get_account_balance(asset)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 86, in _get_account_balance
+    balance = self._client.get_asset_balance(asset=f"{asset}")
+  File "/home/iii/MEGA/tradr/lib/python3.7/site-packages/binance/client.py", line 1792, in get_asset_balance
+    res = self.get_account(**params)
+  File "/home/iii/MEGA/tradr/lib/python3.7/site-packages/binance/client.py", line 1767, in get_account
+    return self._get('account', True, data=params)
+  File "/home/iii/MEGA/tradr/lib/python3.7/site-packages/binance/client.py", line 237, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/home/iii/MEGA/tradr/lib/python3.7/site-packages/binance/client.py", line 202, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/home/iii/MEGA/tradr/lib/python3.7/site-packages/binance/client.py", line 197, in _request
+    return self._handle_response()
+  File "/home/iii/MEGA/tradr/lib/python3.7/site-packages/binance/client.py", line 230, in _handle_response
+    raise BinanceAPIException(self.response)
+binance.exceptions.BinanceAPIException: APIError(code=-2015): Invalid API-key, IP, or permissions for action.
+ERROR 2021-03-02 15:39:24,359 MainProcess Error in main:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trade_script.py", line 17, in main
+    trader = BinanceTrader()
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 15, in __init__
+    self._client = Client(api_key=API_KEY, api_secret=API_SECRET, tld = '.com')
+  File "/home/iii/MEGA/tradr/lib/python3.7/site-packages/binance/client.py", line 105, in __init__
+    self.ping()
+  File "/home/iii/MEGA/tradr/lib/python3.7/site-packages/binance/client.py", line 392, in ping
+    return self._get('ping', version=self.PRIVATE_API_VERSION)
+  File "/home/iii/MEGA/tradr/lib/python3.7/site-packages/binance/client.py", line 237, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/home/iii/MEGA/tradr/lib/python3.7/site-packages/binance/client.py", line 202, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/home/iii/MEGA/tradr/lib/python3.7/site-packages/binance/client.py", line 196, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/home/iii/MEGA/tradr/lib/python3.7/site-packages/requests/sessions.py", line 555, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/iii/MEGA/tradr/lib/python3.7/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/iii/MEGA/tradr/lib/python3.7/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/iii/MEGA/tradr/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/iii/MEGA/tradr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/home/iii/MEGA/tradr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/home/iii/MEGA/tradr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/home/iii/MEGA/tradr/lib/python3.7/site-packages/urllib3/connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "/home/iii/MEGA/tradr/lib/python3.7/site-packages/urllib3/connection.py", line 170, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/iii/MEGA/tradr/lib/python3.7/site-packages/urllib3/util/connection.py", line 70, in create_connection
+    LocationParseError(u"'%s', label empty or too long" % host), None
+  File "<string>", line 3, in raise_from
+urllib3.exceptions.LocationParseError: Failed to parse: 'api.binance..com', label empty or too long

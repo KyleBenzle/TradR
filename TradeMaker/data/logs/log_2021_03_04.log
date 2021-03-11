@@ -1,0 +1,21 @@
+ERROR 2021-03-04 12:42:53,491 MainProcess Error in main:
+Traceback (most recent call last):
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trade_script.py", line 19, in main
+    trader.sell_order(asset)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 27, in sell_order
+    balance = self._get_account_balance(asset)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/trader/binance_trader.py", line 101, in _get_account_balance
+    balance = self._client.get_asset_balance(asset=f"{asset}")
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1792, in get_asset_balance
+    res = self.get_account(**params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 1767, in get_account
+    return self._get('account', True, data=params)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 237, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 202, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 197, in _request
+    return self._handle_response()
+  File "/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/venv/lib/python3.7/site-packages/binance/client.py", line 230, in _handle_response
+    raise BinanceAPIException(self.response)
+binance.exceptions.BinanceAPIException: APIError(code=-1021): Timestamp for this request is outside of the recvWindow.

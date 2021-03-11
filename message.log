@@ -1,0 +1,80 @@
+this will be written to message.log
+2021-03-11 00:49
+              precision    recall  f1-score     support
+class 0        0.609756  0.657895  0.632911  152.000000
+class 1        0.551724  0.500000  0.524590  128.000000
+accuracy       0.585714  0.585714  0.585714    0.585714
+macro avg      0.580740  0.578947  0.578751  280.000000
+weighted avg   0.583227  0.585714  0.583393  280.000000
+
+r^2 Score: 0.5857142857142857
+
+Signal prediction: 
+Monero:    0
+EthTrader: 0
+Dash:      0
+Ethereum:  0
+BCH:       0
+XMRTrader: 0
+Bitcoin:   0
+EthFinance:0
+
+Feature Importances: 
+online_users      0.099590
+number_of_post    0.055919
+total_votes       0.131236
+polarity          0.045344
+subjectivity      0.044746
+neg               0.035321
+neu               0.043388
+pos               0.040140
+compound          0.037486
+day_of_week       0.084092
+dtype: float64
+
+Important words: 
+post          90
+tell          58
+shit          47
+sats          33
+project       31
+orange        21
+head          20
+software      20
+personally    17
+slow          16
+dtype: int64
+r2 Train score: bitcoin 0.1492022531746645
+r2 Test score: bitcoin 0.0738241166384217
+Train RMSE: bitcoin 0.4602395286458006
+Test RMSE: bitcoin 0.4794192648014801
+r2 Train score: btc 0.1542404258482083
+r2 Test score: btc 0.07675198684049866
+Train RMSE: btc 0.45887480407476433
+Test RMSE: btc 0.47866088375075294
+r2 Train score: dashpay 0.14950282455189123
+r2 Test score: dashpay 0.0749736123770619
+Train RMSE: dashpay 0.46015822433496456
+Test RMSE: dashpay 0.479121663929774
+r2 Train score: ethereum 0.1506088873715714
+r2 Test score: ethereum 0.07264651525169796
+Train RMSE: ethereum 0.45985891147357577
+Test RMSE: ethereum 0.4797239506926354
+r2 Train score: ethfinance 0.15343518776329013
+r2 Test score: ethfinance 0.0692255605539901
+Train RMSE: ethfinance 0.4590931968494782
+Test RMSE: ethfinance 0.4806079734631934
+r2 Train score: ethtrader 0.1519006305053262
+r2 Test score: ethtrader 0.0792497690833942
+Train RMSE: ethtrader 0.4595091046538439
+Test RMSE: ethtrader 0.47801295362744217
+r2 Train score: monero 0.15059588340545493
+r2 Test score: monero 0.06961114768574661
+Train RMSE: monero 0.45986243162273105
+Test RMSE: monero 0.4805084136565362
+r2 Train score: xmrtrader 0.15067038511358344
+r2 Test score: xmrtrader 0.07797070196301237
+Train RMSE: xmrtrader 0.459842263785493
+Test RMSE: xmrtrader 0.4783448560492428
+[0.20535883 0.20535883 0.20535883 0.20535883 0.09960901 0.09960901
+ 0.20535883 0.18997381]

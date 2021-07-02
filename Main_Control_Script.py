@@ -1,19 +1,16 @@
 import subprocess
-
-
 from github import Github
 import pandas as pd
 import glob
 import os
 import csv
 from time import sleep
-
 import datetime
 
 
 count = 0
 
-while count < 2:
+while count < 7:
 	count = count + 1
 	exec(open("RedditScraper.py").read())
 
@@ -39,7 +36,11 @@ while count < 2:
 
 	os.remove("./ScrappedData/ScrappedReddit.csv")
 
-	sleep(5)
+	os.remove(latest_file)
+
+	# os.remove(latest_file)
+
+	sleep(3)
 
 	latestFileNew = latestFile[mainFile.columns]
 
@@ -54,22 +55,21 @@ while count < 2:
 
 	# 
 
-	sleep(3)
+	sleep(2)
 
 	exec(open("PriceApp.py").read())
 
-	sleep(3)
+	sleep(2)
 
 	exec(open("Analysis.py").read())
 
-	sleep(3)
-
+	sleep(2)
 
 
 
 	##### Upload to GitHub
 	# Set user info
-	g = Github("70d28b26b44ab1e5a29eb01d1d73d8bf86ba34c9")
+	g = Github("c04f0be78e2e12d4bf6ece07d417ea759c7bd7f5")
 	repo = g.get_user().get_repo('tradr')
 	all_files = []
 	contents = repo.get_contents("")
@@ -82,12 +82,12 @@ while count < 2:
 	        all_files.append(str(file).replace('ContentFile(path="','').replace('")',''))
 
 
-	# Upload Price Data
+	# Price
 	with open('./PriceData.csv', 'r') as file:
 	    content = file.read()
 
-	
-	git_prefix = 'Data/PriceGrabber/'
+	# Upload Scrapped Reddit Data
+	git_prefix = 'Data/'
 	git_file = git_prefix + 'PriceData.csv'
 
 	if git_file in all_files:
@@ -97,13 +97,14 @@ while count < 2:
 	else:
 	    repo.create_file(git_file, "committing files", content, branch="main")
 	    print(git_file + ' CREATED')
+
 	    
 	# Scrapped Reddit
 	with open('./ScrappedData/ScrappedReddit.csv', 'r') as file:
 	    content = file.read()
 
 	# Upload Scrapped Reddit Data
-	git_prefix = 'Data/ScrappedData/'
+	git_prefix = 'Data/'
 	git_file = git_prefix + 'ScrappedReddit.csv'
 
 	if git_file in all_files:
@@ -116,22 +117,38 @@ while count < 2:
 
 
 
+	# Signal
+	with open('./SignalInput.csv', 'r') as file:
+	    content = file.read()
+
+	# Upload Scrapped Reddit Data
+	git_prefix = 'Data/'
+	git_file = git_prefix + 'SignalInput.csv'
+
+	if git_file in all_files:
+	    contents = repo.get_contents(git_file)
+	    repo.update_file(contents.path, "committing files", content, contents.sha, branch="main")
+	    print(git_file + ' UPDATED')
+	else:
+	    repo.create_file(git_file, "committing files", content, branch="main")
+	    print(git_file + ' CREATED')
+
 # user input for API KEY
-# RUN this script
+
 
 
 
 	sleep(2)
 
 	# Make trades
-	main_path = '/home/iii/MEGA/NYC Data/tradr/Data/TradeMaker/'
+	main_path = '/home/i/MEGA/NYCData/tradr/Data/TradeMaker/'
 	python_path = f"{main_path}venv/bin/python3"
 	args = [python_path, f"{main_path}trade_script.py",
-	"/home/iii/MEGA/NYC Data/tradr/Data/SignalInput.csv"]
+	"/home/i/MEGA/NYCData/tradr/Data/SignalInput.csv"]
 	process_info = subprocess.run(args)
 	print(process_info.returncode)
 
-
+	print('waiting...')
 	sleep(3600)
 
 
